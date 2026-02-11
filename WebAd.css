@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family:'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.page {
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 240px 1fr 280px;
+  gap: 32px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.study-image {
+  float: right;
+  width: 280px;
+  margin: 0 0 20px 32px;
+}
+
+.sidebar {
+  font-size: 14px;
+}
+
+.sidebar h3 {
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.sidebar li.active {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.next-steps {
+  margin-top: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.next-steps h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.next-steps ol {
+  padding-left: 18px;
+  margin-bottom: 16px;
+}
+
+.next-steps li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.next-steps button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 999px;
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.next-steps button:hover {
+  background-color: #dc2626;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.main-content p {
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: #374151;
+}
+
+.main-content ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.main-content li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.research-centre {
+  text-decoration: underline;
+}
+
+.rectangle {
+  width: 230px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.persian-red {
+  background-color: #d8392f;
+}
+
+.midnight-blue {
+  background-color: #001b52;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
