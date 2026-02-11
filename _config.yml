@@ -1,1 +1,3 @@
-index.html: WebAd.html
+theme: jekyll-theme-minimal
+title: Diabetes Questionnaire Web Ad
+description: An ad to a questionnaire to find eligible participants
